@@ -1,0 +1,26 @@
+.column {
+    column-count: 5;
+    column-gap: 20px;
+  }
+  
+
+  
+  .loader {
+    text-align: center;
+    padding: 20px;
+  }
+  .coin {
+    margin-bottom: 10px;
+    break-inside: avoid;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer; /* Set cursor to pointer */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  .coin:hover {
+    background-color: #f0f0f0; /* Change background color on hover */
+    transform: scale(1.15); /* Increase size by 15% on hover */
+  }
